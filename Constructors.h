@@ -66,7 +66,7 @@ Mystring<T>::Mystring(T* val, T* val2)
 template<class T>
 Mystring<T>::Mystring(T val, int n)
 {
-    if (n < 0) throw "try something bigger oni-chan..";
+    if (n < 0) throw "try a longer string";
     str = new char[n + 1];
 
     for (int i = 0; i < n; i++)
